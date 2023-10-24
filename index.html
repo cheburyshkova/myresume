@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV cheburyshkova</title>
+    <script src="CodeMirror/lib/codemirror.js"></script>
+    <link href="CodeMirror/lib/codemirror.css" rel="stylesheet"/>
+    <script src="CodeMirror\mode\xml\xml.js"></script>
+    <script src="CodeMirror\mode\apl\apl.js"></script>
+    <script src="CodeMirror\src\modes.js"></script>
+    <script src="CodeMirror\mode\asciiarmor\asciiarmor.js"></script>
+    <script src="CodeMirror\mode\asn.1\asn.1.js"></script>
+    <script src="CodeMirror\mode\brainfuck\brainfuck.js"></script>
+    <script src="CodeMirror\mode\asterisk\asterisk.js"></script>
+    <script src="CodeMirror\mode\clike\clike.js"></script>
+    <script src="CodeMirror/addon/scroll/simplescrollbars.js"></script>
+    <script src="CodeMirror\keymap\emacs.js"></script>
+    <script src="CodeMirror\keymap\sublime.js"></script>
+    <script src="CodeMirror\keymap\vim.js"></script>
+    <link rel="stylesheet" href="CodeMirror/addon/scroll/simplescrollbars.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/augmented-ui@2/augmented-ui.min.css">
+
+    <link href="CodeMirror\theme\ambiance.css" rel="stylesheet"/>
+    <link href="CodeMirror\theme\material-darker.css" rel="stylesheet"/>
+</head>
+<body>
+<code class="code-container">
+    <input class="sig" value="//email: cheburyshkovav@yandex.ru; 8 (977) 290 11 80">
+    <div class="glow-container">
+        <div class="augs" data-augmented-ui></div>
+    </div>
+    <section class="augs bg" data-augmented-ui>
+        <button class="dots" onclick="changeMode(this)" title="(click to change) Current Mode: css"></button>
+        <input class="title" value="My CV. ML engineer">
+        <div class="code highcontrast-dark">
+            <textarea id="code">
+class Resume:
+    def __init__(self):
+        self.name = "Cheburyshkova Valentina"
+        self.contact_info = {
+            "email": cheburyshkovav@yandex.ru;
+            "phone": "8 (977) 290 11 80"
+        }
+        self.work_experience = [
+        {
+            "position": "Certification Department Analyst",
+            "company": "SERCONS Group of Companies",
+            "website": "https://www.serconsrus.ru",
+            "duration": ("October 2022", "July 2023"),
+            "responsibilities": [
+            "Analyzed sales data, conducted a review of the current database, sales volume, and sales percentage metrics.",
+            "Evaluated average revenue per customer, closed deals percentage, and returns.",
+            "Developed a Python script for automated data collection from websites and lead base acquisition."
+            ]
+        },
+        {
+            "position": "Product Analyst Intern",
+            "company": "CRMsoft",
+            "duration": ("May 2022", "August 2022"),
+            "responsibilities": [
+            "Created technical specifications for system analysts, dashboards in Power BI, 
+            "and provided recommendations for optimizing e-commerce business processes.",
+            "Formed and analyzed customer product metrics."
+            ]
+        }           
+    ]
+        self.education = [
+        {
+            "institution": "Bauman Moscow State Technical University (MSTU)",
+            "major": "Business Informatics",
+            "degree": "Bachelor",
+            "years": ("2020", "2024")
+            },
+        {
+            "institution": "Yandex.Praktikum",
+            "field": "Data Analyst",
+            "graduation_year": "2022"
+            },
+        {
+            "institution": "Karpov.course",
+            "field": "ML-engineer",
+            "graduation_year": "2023"
+        }
+            ]
+        self.volunteer_activities = {
+            "duration": ("August 2023", "October 2023"),
+            "details": [
+            "Organizing and lecturing at the Science Festival.",
+            "Lecture Topic: Application of Artificial Intelligence in Natural Sciences."
+            ]
+        }
+        self.projects = [
+            "Development of a form for patient data input into a hospital database (C# and SQL).",
+            "Data parsing from websites for weather forecast prediction (SQL, Python, numpy, pandas, BeautifulSoup)."
+            ]
+            </textarea>
+        </div>
+    </section>
+</code>
+<script src="CodeMirror/mode/javascript/javascript.js"></script>
+<script src="CodeMirror/mode/markdown/markdown.js"></script>
+<script src="CodeMirror/mode/htmlmixed/htmlmixed.js"></script>
+<script src="CodeMirror/mode/css/css.js"></script>
+<script src="CodeMirror\addon\wrap\hardwrap.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
