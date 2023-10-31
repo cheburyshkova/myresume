@@ -36,65 +36,55 @@
         <input class="title" value="My CV. ML engineer">
         <div class="code highcontrast-dark">
             <textarea id="code">
-class Resume:
-    def __init__(self):
-        self.name = "Cheburyshkova Valentina"
-        self.contact_info = {
-            "email": cheburyshkovav@yandex.ru;
-            "phone": "8 (977) 290 11 80"
-        }
-        self.work_experience = [
-        {
-            "position": "Certification Department Analyst",
-            "company": "SERCONS Group of Companies",
-            "website": "https://www.serconsrus.ru",
-            "duration": ("October 2022", "July 2023"),
-            "responsibilities": [
-            "Analyzed sales data, conducted a review of the current database, sales volume, and sales percentage metrics.",
-            "Evaluated average revenue per customer, closed deals percentage, and returns.",
-            "Developed a Python script for automated data collection from websites and lead base acquisition."
-            ]
-        },
-        {
-            "position": "Product Analyst Intern",
-            "company": "CRMsoft",
-            "duration": ("May 2022", "August 2022"),
-            "responsibilities": [
-            "Created technical specifications for system analysts, dashboards in Power BI, 
-            "and provided recommendations for optimizing e-commerce business processes.",
-            "Formed and analyzed customer product metrics."
-            ]
-        }           
-    ]
-        self.education = [
-        {
-            "institution": "Bauman Moscow State Technical University (MSTU)",
-            "major": "Business Informatics",
-            "degree": "Bachelor",
-            "years": ("2020", "2024")
-            },
-        {
-            "institution": "Yandex.Praktikum",
-            "field": "Data Analyst",
-            "graduation_year": "2022"
-            },
-        {
-            "institution": "Karpov.course",
-            "field": "ML-engineer",
-            "graduation_year": "2023"
-        }
-            ]
-        self.volunteer_activities = {
-            "duration": ("August 2023", "October 2023"),
-            "details": [
-            "Organizing and lecturing at the Science Festival.",
-            "Lecture Topic: Application of Artificial Intelligence in Natural Sciences."
-            ]
-        }
-        self.projects = [
-            "Development of a form for patient data input into a hospital database (C# and SQL).",
-            "Data parsing from websites for weather forecast prediction (SQL, Python, numpy, pandas, BeautifulSoup)."
-            ]
+name="Valentina Cheburyshkova",
+contact_info={
+    "email": "cheburyshkovav@yandex.ru",
+    "tel": "+ 7 (977) 290 11 80",
+    "telegram": "@cheburyshkova",
+    "github": "https://github.com/cheburyshkova"
+},
+education=[
+    {
+        "institution": "MSTU im. N.E. Bauman",
+        "degree": "Business Informatics, Bachelor's Degree",
+        "years": "2020-2024"
+    },
+    {
+        "institution": "Yandex.Workshop",
+        "degree": "Data Analyst",
+        "years": "2021-2022"
+    }
+],
+experience=[
+    {
+        "company": "GC “Sercons”",
+        "role": "Certification Department Analyst",
+        "period": "October 2022 – July 2023",
+        "description": [
+            "Analyzed sales data, reviewed current database, sales volume and percentage of sales.",
+            "Estimated average revenue per customer, close percentage, and returns.",
+            "Developed a Python script for automatically collecting data from websites.",
+            "Project link: https://github.com/cheburyshkova/gazproject"
+        ]
+    }
+],
+additional=[
+    {
+        "activity": "Volunteer experience and leadership",
+        "period": "August 2023 - October 2023",
+        "description": "Collaborated on the Science 0+ event."
+    },
+    {
+        "activity": "Public speaking and conferences",
+        "period": "October 2023",
+        "description": "Presented on AI in sciences at a conference."
+    }
+],
+projects=[
+    "Development of a form for patient data (C# and SQL).",
+    "Cocktail recommendation web app (Python, Pandas, scikit-learn).",
+    "Personal reading trail analysis (Python, pandas, Tableau)."
+]            
             </textarea>
         </div>
     </section>
